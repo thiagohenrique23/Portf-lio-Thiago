@@ -26,6 +26,7 @@ header {
     left: 0;
     bottom: 3rem;
     margin-left: 1rem;
+    font-size: 1.4rem;
 }
 
 .header__socials::after {
@@ -38,13 +39,18 @@ header {
 .me {
     background: linear-gradient(#4db5ff, transparent);
     width: 22rem;
-    height: 30rem;
+    height: 20rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.me-image {
+    width: 100%;
+    height: 100%;
 }
 
 .scroll__down {
